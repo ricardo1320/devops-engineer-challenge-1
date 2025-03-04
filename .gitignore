@@ -7,3 +7,5 @@
 
 # Lock files created by Terraform  
 *.terraform.lock.hcl 
+
+.DS_Store
