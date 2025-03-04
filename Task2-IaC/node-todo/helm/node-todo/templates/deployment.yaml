@@ -38,7 +38,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
             - name: MONGO_URI
-              value: "{{ .Values.image.repository }}"
+              value: "{{ .Values.mongoUri }}"
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}
